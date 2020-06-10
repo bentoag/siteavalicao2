@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">       
+	    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+        <link rel="stylesheet" href="css/estilo.css">
+        <title> trabalhe conosco </title>
+    </head>
+    <body>
+        <header>
+            <div class="container">
+                <div class="form group form row">
+                    <div class="col-4">
+                        <figure>
+                            <a href="index.html"> <img src="css/img/logo.png"  alt="Logo Alternetive Fashion" class="logo"> </a>
+                            
+                        </figure>
+                    </div>
+                    <div class="col-8">
+                        <nav class="menu">
+                            <a href="corpomedico.html" class="active"> <button type="button" class="btn-lg btn-primary" id="btcorpomedico"> CORPO MÉDICO </button> </a>
+                            <a href="convenios.html"> <button type="button" class="btn-lg btn-primary" id="btconvenios"> CONVÊNIOS </button>  </a>
+                            <a href="visitas.html"><button type="button" class="btn-lg btn-primary" id="btvisitas"> HORÁRIOS E VISITAS </button> </a>
+                            <a href="trablheconosco.html"><button type="button" class="btn-lg btn-primary" id="bttrabalheconosco"> TRABALHE CONOSCO </button> </a>
+                            
+                        </nav>  
+                    </div>
+                </div> 
+            </div>        
+        </header>
+        <section id="sectionForm">
+            <div class="container">
+                <h1 id="tituloTrablheConosco"> TRABALHE CONOSCO: </h1>
+            <form>
+                <div class="input-group mt-5"> 
+                    <div class="input-group-prepend">
+                        <div class="input-group-text"><i class="fas fa-user-circle"></i></div>
+                    </div>                   
+                    <input type="text" id="nome" placeholder="Nome Completo" maxlength="50" size="150" required>
+                </div>
+                <div class="form-group form-row mt-2"> 
+                    <div class="col-6"> 
+                        <div class="input-group"> 
+                            <div class="input-text-prepend">
+                                 <p id="pCPF">CPF  :</p> 
+                            </div>                            
+                            <input type="text"  class="mascaraCPF" id="cpf" placeholder="000-000-000-00" size="73" required>
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <div class="input-group">
+                            <div class="input-text-prepend">
+                                 <p id="pDataNasc"> DATA DE NASC. :</p> 
+                            </div>
+                            <input type="text" class="mascaraDataNasc" id="dataNasc"  placeholder="dd/mm/aaaa" size="35" required>
+                        </div>                       
+                    </div>                    
+               </div>
+               <div class="input-group mt-2"> 
+                    <div class="input-text-prepend">
+                       <p id="pCEP">CEP  :</p>
+                    </div>                            
+                    <input type="text"  class="mascaraCEP" id="ceppostal" placeholder="00000-000" size="73" required>
+                </div>
+                <div class="form-group mt-2" id="divSelectForm">
+                    <div class="input-group">
+                        <div class="input-text-prepend"><label for="regiao"> <p id="pVagaInteresse"> VAGAS: </p> </label></div>
+                        <select id="vagasdeinteresse" class="form-control">
+                            <option value="1" selected> SELECIONE UMA VAGA </option>
+                            <option value="2"> CARDIOLOGISTA </option>
+                            <option value="3"> CIRURGIÃO GERAL </option>
+                            <option value="4"> PEDIATRA </option>
+                            <option value="5"> ANESTESISTA </option>
+                            <option value="6"> RECEPCIONISTA </option>
+                            <option value="7"> ENFERMEIRO(A) </option>
+                            <option value="8"> INSTRUMENTISTA </option>
+                            <option value="9"> CLÍNICO GERAL </option>
+                            <option value="10"> PLANTONISTA </option>
+                        </select>
+                    </div>
+                </div> 
+                <div class="input-group mt-2"> 
+                    <div class="input-text-prepend">
+                       <p id="pSalario">Pretensão Salarial: </p>
+                    </div>                            
+                    <input type="text"  id="precoproduto"  size="72" required>
+                </div>   
+                <div class="form-group form-row mt-2">
+                    <div class=" col btn-group" role="group" aria-label="...">
+                      <div>                  
+                        <button type="submit" class="btn btn-success btn-lg" id="botaoenviar"> 
+                            ENVIAR <i class="fas fa-paper-plane"></i>
+                        </button>   
+                     </div>
+                      <div>                                              
+                        <button type="reset" class="btn btn-danger btn-lg " id="botaoreset"> 
+                            LIMPAR <i class="far fa-trash-alt"></i>
+                        </button>                       
+                     </div>   
+                </div> 
+            </form>                
+        </section> 
+        
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+        <script src="js/plugins/jquery.priceformat.min.js"></script>
+        <script src="js/plugins/jquery.mask.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+        
+        <script src="js/script.js"></script>       
+    </body>
+    <footer>            
+        <h2 class="rodape"> &copy; Feito por Bento Almeida Gonzaga &copy; </h2>           
+    </footer>
+</html>

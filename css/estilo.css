@@ -1,0 +1,186 @@
+header{
+    width: auto;
+    height: 200px;
+    background-color: #38b6ff;
+}
+body{
+    background-color: #38b6ff;
+}
+section{
+    width: auto;
+    height: auto;
+    background-color: #38b6ff;
+    padding-top: 100px;
+    padding-left: 100px;
+}
+#sectionTabela{
+    width: auto;
+    height: 800px;
+    background-color: #38b6ff;    
+}
+#sectionForm{
+    width: auto;
+    height: 500px;
+    background-color: #38b6ff;    
+}
+footer{
+    width: auto;
+    height: 200px;
+    background-color: #38b6ff;      
+}
+
+h2, .rodade{
+    text-align: center;
+    color: azure;
+    font-size: 12px;  
+    padding-top: 50px; 
+}
+
+.logo{
+    height: 50%;
+    width: 50%; 
+    margin-top: 10px;  
+    margin-left: -50px;  
+}
+
+nav, .menu{
+    margin-top: 10px;  
+   margin-left: 200px; 
+   
+}
+div, .logo{
+    align-items: center;     
+}
+
+p{
+    font-size: 10px;
+    font-family: fantasy;
+   color:coral;
+}
+
+#tituloTabelaEquipe{
+    text-align: center;
+    color: azure;
+    font-size: 24px;  
+    font-family: Arial, Helvetica, sans-serif;  
+
+}
+
+table{
+    margin: none;
+    background-color:#38b6ff; 
+}
+
+#divCard{
+    background-color:#38b6ff; 
+}
+#divaccordion{
+    background-color:#38b6ff; 
+    font-size: 20px;
+    text-align: justify;
+}
+#btcollapse{  
+    margin-left: -500px;
+}
+#linhaCard{
+    padding: 15px;
+}
+#tituloConvenios{
+    text-align: center;
+    color: azure;
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif; 
+}
+
+#tituloInformase{
+    text-align: center;
+    color: azure;
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif; 
+    padding-bottom: 30px;
+}
+
+#tituloTrablheConosco{
+    text-align: center;
+    color: azure;
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif; 
+}
+
+.card-title{
+    text-align: center;
+    font-size: 15px;
+    color: chocolate;
+}
+.card-text{
+    text-align: center;
+    font-size: 10px;
+    color: azure;
+}
+
+#pssaibamais{
+    align-items: center;   
+}
+#btcollapse{
+    color:azure;
+}
+
+.btn-primary{
+    font-size: 10px;
+}
+#pCPF{    
+    color: azure;
+    font-size: 12px;
+    padding-right: 80px; 
+    margin: 5px 0px 0px 0px;   
+    /* top | right | bottom | left */
+}
+#pDataNasc{
+    color: azure;
+    font-size: 12px;
+    padding-right: 10px; 
+    margin: 5px 0px 0px 0px;   
+    /* top | right | bottom | left */
+}
+
+#pCEP{
+    color: azure;
+    font-size: 12px;
+    padding-right: 80px; 
+    margin: 5px 0px 0px 0px;   
+    /* top | right | bottom | left */
+}
+
+#pVagaInteresse{
+    color: azure;
+    font-size: 12px;
+    padding-right: 70px; 
+    margin: 5px 0px 0px 0px;   
+    /* top | right | bottom | left */
+}
+
+#pSalario{
+    color: azure;
+    font-size: 12px;
+    padding-right: 10px; 
+    margin: 5px 0px 0px 0px;   
+    /* top | right | bottom | left */
+}
+#divSelectForm{
+    width: 520px;
+}
+option{
+    font-size: 12px;
+    color: azure;
+    background-color: #38b6ff;
+}
+
+#botaoreset, #botaoenviar{
+    margin: 20px 25px;
+}
+
+#formularioEnviado{
+    color: azure;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
